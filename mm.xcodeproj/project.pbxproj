@@ -15,6 +15,9 @@
 		8204A2AA23DF67C30011BC5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8204A2A823DF67C30011BC5A /* LaunchScreen.storyboard */; };
 		8204A2B523DF67C30011BC5A /* mmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204A2B423DF67C30011BC5A /* mmTests.swift */; };
 		8204A2C023DF67C30011BC5A /* mmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204A2BF23DF67C30011BC5A /* mmUITests.swift */; };
+		82642A4E241A924700EC1E22 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82642A4D241A924700EC1E22 /* CustomLabel.swift */; };
+		829F5FFE2443AB6D004FFC61 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F5FFD2443AB6D004FFC61 /* ViewController1.swift */; };
+		82C546F324195B600034A913 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C546F224195B600034A913 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8204A2BB23DF67C30011BC5A /* mmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8204A2BF23DF67C30011BC5A /* mmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmUITests.swift; sourceTree = "<group>"; };
 		8204A2C123DF67C30011BC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82642A4D241A924700EC1E22 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		829F5FFD2443AB6D004FFC61 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		82C546F224195B600034A913 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				8204A2A623DF67C30011BC5A /* Assets.xcassets */,
 				8204A2A823DF67C30011BC5A /* LaunchScreen.storyboard */,
 				8204A2AB23DF67C30011BC5A /* Info.plist */,
+				82C546F224195B600034A913 /* CustomButton.swift */,
+				82642A4D241A924700EC1E22 /* CustomLabel.swift */,
+				829F5FFD2443AB6D004FFC61 /* ViewController1.swift */,
 			);
 			path = mm;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829F5FFE2443AB6D004FFC61 /* ViewController1.swift in Sources */,
+				82C546F324195B600034A913 /* CustomButton.swift in Sources */,
+				82642A4E241A924700EC1E22 /* CustomLabel.swift in Sources */,
 				8204A2A223DF67C20011BC5A /* ViewController.swift in Sources */,
 				8204A29E23DF67C20011BC5A /* AppDelegate.swift in Sources */,
 				8204A2A023DF67C20011BC5A /* SceneDelegate.swift in Sources */,
@@ -437,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZBYN2U4F6;
 				INFOPLIST_FILE = mm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZBYN2U4F6;
 				INFOPLIST_FILE = mm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
